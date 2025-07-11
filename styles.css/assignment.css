@@ -52,7 +52,6 @@ header div{
     justify-content: space-between;
     margin: 100px 150px;
     gap: 200px;
-    
 }
 .action-img{
     border-radius: 50px;
@@ -145,10 +144,50 @@ header div{
     background-color: white;
     padding: 20px 50px 60px ;
     border-radius: 15px;
-    
 }
 .fourth-action-prompt h4{
     font-weight: bold;
     font-size: 50px;
     margin-bottom: 5px;
 }
+
+/* fifth-action */
+
+.fifth-action{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px;
+}
+.fifth-action h3{
+    font-size: 75px;    
+    font-weight: bold;
+}
+input[type="email"]{
+    width: 100%;
+    height: 40px;
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+input[type="text"]{
+   width: 100%;
+    height: 40px;
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    margin-bottom: 20px; 
+}
+.box{
+    width: 100%;
+    /* height: 40px; */
+    display: block;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    margin-bottom: 20px;
+}
+
+
