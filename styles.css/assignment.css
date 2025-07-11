@@ -1,4 +1,3 @@
-
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -127,6 +126,10 @@ header div{
    margin-left: 20px ;
    font-weight: bold;
 }
+.date{
+    font-weight: normal;
+    color: rgba(179, 179, 179, 1);
+}
 .review-text h5{
     font-size: 23px;
     font-weight: bold;
@@ -163,7 +166,7 @@ header div{
     font-weight: bold;
 }
 input[type="email"]{
-    width: 100%;
+    width: 400px;
     height: 40px;
     display: block;
     border-radius: 10px;
@@ -171,23 +174,57 @@ input[type="email"]{
     border: none;
     margin-bottom: 20px;
 }
-input[type="text"]{
-   width: 100%;
+input[type="text"]{   
+   width: 400px;
     height: 40px;
     display: block;
     border-radius: 10px;
     background-color: white;
     border: none;
-    margin-bottom: 20px; 
+    margin-bottom: 20px;
 }
 .box{
-    width: 100%;
-    /* height: 40px; */
+    width: 400px;
     display: block;
     border-radius: 10px;
     background-color: white;
     border: none;
     margin-bottom: 20px;
 }
+.boss{
+    width: 400px;
+}
 
+/* footer-section */
 
+.full-footer{
+    text-align: center;
+    background-color: white;
+    height: 300px;
+    width: 100%;
+}
+.top-footer h2{
+    font-size: 80px;
+    font-weight: bold;
+    color: rgba(78, 71, 255, 1);
+    margin: 40px;
+}
+.top-footer p{
+    font-size: 16px;
+    padding: 0px 400px 0px;
+    color: #8987A1;
+}
+.end-footer {
+    display: flex;
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    margin-right: 40px;
+    justify-content: center;
+    padding-top: 30px;
+}
+li a{ 
+    text-decoration: none;
+    margin-right: 40px;
+    color: #252432;
+}
